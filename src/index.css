@@ -1,0 +1,43 @@
+body{
+    font-family:Arial, sans-serif;
+}
+.color-picker-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+h1{
+    margin:2vh;
+    font-size:3rem;
+}
+.color-display{
+    height:40vh;
+    width:40vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:0.7vh solid rgba(180, 178, 178, 0.833);
+    border-radius:4vh;
+    transition:0.25 ease;
+}
+label{
+    display:flex;
+    margin:0;
+    font-size: 1.5rem;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.color-display p{
+    font-size:1.5em;
+    text-align:center;
+    transition:0.25 ease;
+}
+input[type="color"]{
+    height:5vh;
+    width:10vh;
+    border:0.7vh solid rgba(180, 178, 178, 0.833);
+    border-radius:1.5vh;
+}
